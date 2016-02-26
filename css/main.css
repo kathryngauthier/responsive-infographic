@@ -36,12 +36,17 @@ h2 {
 .person {
   position: absolute;
   left: 30%;
-  z-index: 100;
+
 }
 
 .ouch {
   position: relative;
   top: 10%;
-  left: 35%;
+  left: 32%;
+  fill: #ceecf5;
+  z-index: 100;
+}
+
+.ouch:hover{
   fill: red;
 }
